@@ -12,7 +12,7 @@ def ocr_scan(image_path):
         return text.strip()
 
 # Example usage
-image_path = 'data\data_jpg\input1.jpg'
+image_path = 'data\data_jpg\input6.jpg'
 result = ocr_scan(image_path)
 print("Detected Text:")
 print(result)

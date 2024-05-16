@@ -7,6 +7,3 @@ def getOCR(document):
     text = pytesseract.image_to_string(image)
     return text
 
-# Example usage
-text = getOCR('document.jpg')
-print(text)
